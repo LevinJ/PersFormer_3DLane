@@ -27,8 +27,8 @@ def config(args):
 
     # 1000 sequence
     args.dataset_name = 'openlane'
-    args.dataset_dir = '/mnt/disk01/openlane/images/'
-    args.data_dir = '/mnt/disk01/openlane/lane3d_1000/'
+    args.dataset_dir = '/home/levin/workspace/data/lanes/images'
+    args.data_dir = '/home/levin/workspace/data/lanes/lane3d_1000_v1.2/lane3d_1000'
 
     if 'openlane' in args.dataset_name:
         openlane_config(args)
